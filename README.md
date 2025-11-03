@@ -17,9 +17,6 @@ Worse, the **base mining speed is quite low**, so unless the player is `onGround
 
 For example, if you have `200ms` ping and you’re breaking blocks 10 blocks straight down, it will take `(200ms × 10) = 2` seconds just to descend.  
 
-## How to Download?
-You can download [Here](https://github.com/SILENCE-SIMSOOL/FixDungeonBreaker/releases/download/1.0.0/FixDungeonBreaker-1.0.0-mc1.8.9.jar)!  
-
 ## How does it work?
 It resolves the issue by forcing the **DungeonBreaker**'s **mining speed** to `1024f` for all blocks, just like in version `1.20+`, regardless of block type.  
 ```java
@@ -30,3 +27,5 @@ public void onBreakSpeed(PlayerEvent.BreakSpeed event) {
     }
 }
 ```
+## How to Download?
+You can download [Here](https://github.com/SILENCE-SIMSOOL/FixDungeonBreaker/releases/download/1.0.0/FixDungeonBreaker-1.0.0-mc1.8.9.jar)!  
