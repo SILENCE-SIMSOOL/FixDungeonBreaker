@@ -1,0 +1,15 @@
+[
+{
+  "modid": "fixdungeonbreaker",
+  "name": "Fix DungeonBreaker",
+  "description": "Fixes it so that the DungeonBreaker can be used without being affected by ping, just like in version 1.20+.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://github.com/SILENCE-SIMSOOL/FixDungeonBreaker",
+  "updateUrl": "https://github.com/SILENCE-SIMSOOL/FixDungeonBreaker/releases",
+  "authorList": ["SimSool"],
+  "logoFile": "icon.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]
