@@ -22,8 +22,8 @@ It resolves the issue by forcing the **DungeonBreaker**'s **mining speed** to `1
 ```java
 @SubscribeEvent
 public void onBreakSpeed(PlayerEvent.BreakSpeed event) {
-  if (ItemUtils.getItemID(item).equals("DUNGEONBREAKER")) {
-    event.newSpeed = 1024.0F;
-  }
+    if (ItemUtils.getItemID(item).equals("DUNGEONBREAKER")) {
+        event.newSpeed = 1024.0F;
+    }
 }
 ```
