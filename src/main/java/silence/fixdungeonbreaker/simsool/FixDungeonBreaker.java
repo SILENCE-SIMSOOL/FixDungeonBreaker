@@ -1,8 +1,12 @@
 package silence.fixdungeonbreaker.simsool;
 
-import com.typesafe.config.Config;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 
+import net.minecraft.block.Block;
 import net.minecraft.client.Minecraft;
+import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.client.ClientCommandHandler;
 import net.minecraftforge.common.MinecraftForge;
@@ -20,6 +24,14 @@ public class FixDungeonBreaker {
 	public static boolean ENABLED = true;
 	public static Minecraft mc = Minecraft.getMinecraft();
 
+	private final Set<Block> IGNORED_BLOCKS = new HashSet<>(Arrays.asList(
+			Blocks.chest,
+			Blocks.trapped_chest,
+			Blocks.lever,
+			Blocks.skull,
+			Blocks.redstone_block
+	));
+	
 	@EventHandler
 	public void init(FMLInitializationEvent event) {
 		MinecraftForge.EVENT_BUS.register(this);
@@ -31,6 +43,7 @@ public class FixDungeonBreaker {
 		if (ENABLED) {
 			ItemStack item = event.entityPlayer.getHeldItem(); if (item == null) return;
 			if (ItemUtils.getItemID(item).equals("DUNGEONBREAKER")) {
+				if (IGNORED_BLOCKS.contains(event.state.getBlock())) return;
 				event.newSpeed = 1024.0F;
 			}
 		}
