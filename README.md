@@ -28,4 +28,4 @@ public void onBreakSpeed(PlayerEvent.BreakSpeed event) {
 }
 ```
 ## How to Download?
-You can download [Here](https://github.com/SILENCE-SIMSOOL/FixDungeonBreaker/releases/download/1.0.0/FixDungeonBreaker-1.0.0-mc1.8.9.jar)!  
+You can download [Here](https://github.com/SILENCE-SIMSOOL/FixDungeonBreaker/releases/download/1.0.1/FixDungeonBreaker-1.0.0-mc1.8.9.jar)!  
