@@ -1,7 +1,3 @@
-# Fix DungeonBreaker
-[Fix DungeonBreaker](https://github.com/SILENCE-SIMSOOL/FixDungeonBreaker) is a **Minecraft Forge mod** for version `1.8.9`.  
-It fixes the unfair issues that occur when using the `DungeonBreaker` item in Hypixel SkyBlock caused by high ping.  
-
 <p align="center">
 	<a href="https://github.com/SILENCE-SIMSOOL/FixDungeonBreaker/releases" target="_blank">
 		<img alt="release" src="https://img.shields.io/github/v/release/SILENCE-SIMSOOL/FixDungeonBreaker?color=E0E0E0&style=flat-square" />
@@ -13,6 +9,9 @@ It fixes the unfair issues that occur when using the `DungeonBreaker` item in Hy
 		<img alt="discord" src="https://img.shields.io/discord/1312525891225784421?color=5865F2&label=discord&style=flat-square" />
 	</a>
 </p>
+# Fix DungeonBreaker
+[Fix DungeonBreaker](https://github.com/SILENCE-SIMSOOL/FixDungeonBreaker) is a **Minecraft Forge mod** for version `1.8.9`.  
+It fixes the unfair issues that occur when using the `DungeonBreaker` item in Hypixel SkyBlock caused by high ping.  
 
 This code is a standalone version derived from a portion of the [SilenceUtils](https://github.com/SILENCE-SIMSOOL/SilenceUtils).  
 It was created separately for those who do not use SilenceUtils or are simply interested in understanding how it works.  
