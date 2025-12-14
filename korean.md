@@ -1,12 +1,12 @@
 <p align="center">
 	<a href="https://github.com/SILENCE-SIMSOOL/FixDungeonBreaker/releases" target="_blank">
-		<img alt="release" src="https://img.shields.io/github/v/release/SILENCE-SIMSOOL/FixDungeonBreaker?color=E0E0E0&style=flat-square" />
+		<img alt="릴리즈" src="https://img.shields.io/github/v/release/SILENCE-SIMSOOL/FixDungeonBreaker?color=E0E0E0&style=flat-square" />
 	</a>
 	<a href="https://github.com/SILENCE-SIMSOOL/FixDungeonBreaker/releases" target="_blank">
-		<img alt="downloads" src="https://img.shields.io/github/downloads/SILENCE-SIMSOOL/FixDungeonBreaker/total?color=8b4db6&style=flat-square" />
+		<img alt="다운로드" src="https://img.shields.io/github/downloads/SILENCE-SIMSOOL/FixDungeonBreaker/total?color=8b4db6&style=flat-square" />
 	</a>
 	<a href="https://discord.gg/2Zt8HDksJs" target="_blank">
-		<img alt="discord" src="https://img.shields.io/discord/1312525891225784421?color=5865F2&label=discord&style=flat-square" />
+		<img alt="디스코드" src="https://img.shields.io/discord/1312525891225784421?color=5865F2&label=discord&style=flat-square" />
 	</a>
 </p>
 
