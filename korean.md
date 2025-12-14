@@ -1,15 +1,3 @@
-<p align="center">
-	<a href="https://github.com/SILENCE-SIMSOOL/FixDungeonBreaker/releases" target="_blank">
-		<img alt="release" src="https://img.shields.io/github/v/release/SILENCE-SIMSOOL/FixDungeonBreaker?color=E0E0E0&style=flat-square" />
-	</a>
-	<a href="https://github.com/SILENCE-SIMSOOL/FixDungeonBreaker/releases" target="_blank">
-		<img alt="download" src="https://img.shields.io/github/downloads/SILENCE-SIMSOOL/FixDungeonBreaker/total?color=8b4db6&style=flat-square" />
-	</a>
-	<a href="https://discord.gg/2Zt8HDksJs" target="_blank">
-		<img alt="discord" src="https://img.shields.io/discord/1312525891225784421?color=5865F2&label=discord&style=flat-square" />
-	</a>
-</p>
-
 # 픽스 던전브레이커  
 [픽스 던전브레이커](https://github.com/SILENCE-SIMSOOL/FixDungeonBreaker) 는 `1.8.9` 버전의 **마인크래프트 포지 모드** 입니다.  
 이 모드는 하이픽셀 스카이블럭에서 `DungeonBreaker` 아이템을 핑이 높은 환경에서 사용할 때 불공정한 부분을 해결해줍니다.  
